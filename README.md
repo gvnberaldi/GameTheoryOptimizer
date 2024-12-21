@@ -15,10 +15,12 @@ We demonstrate that leveraging specific properties of graph-based games can sign
 - **Results**:
   - For both dense and sparse graphs, the optimized approach outperformed the naive approach by an order of magnitude.
 
-![Shapley Value Sparse Graphs](path/to/sparse_shapley_plot.png)
+![Shapley Value Sparse Graphs](docs/images/shap_low_density.png)
+
 *Figure 1: Shapley Value computation for sparse graphs.*
 
-![Shapley Value Dense Graphs](path/to/dense_shapley_plot.png)
+![Shapley Value Dense Graphs](docs/images/shap_high_density.png)
+
 *Figure 2: Shapley Value computation for dense graphs.*
 
 ### 2. **Nash Equilibria Computation**
@@ -31,10 +33,12 @@ We demonstrate that leveraging specific properties of graph-based games can sign
   - Sparse graphs benefit significantly from the optimized solution.
   - Dense graphs show minimal improvement due to high connectivity.
 
-![Nash Equilibria Sparse Graphs](path/to/sparse_nash_plot.png)
+![Nash Equilibria Sparse Graphs](docs/images/nash_low_density.png)
+
 *Figure 3: Nash Equilibria computation for sparse graphs.*
 
-![Nash Equilibria Dense Graphs](path/to/dense_nash_plot.png)
+![Nash Equilibria Dense Graphs](docs/images/nash_high_density.png)
+
 *Figure 4: Nash Equilibria computation for dense graphs.*
 
 ### 3. **Tree Decomposition for Nash Equilibria**
@@ -48,7 +52,8 @@ We demonstrate that leveraging specific properties of graph-based games can sign
 - **Results**:
   - Players gain the most by declaring their true utility in single-play settings.
 
-![Mechanism Design Results](path/to/mechanism_design_plot.png)
+![Mechanism Design Results](docs/images/mechanism_design_res.png)
+
 *Figure 5: Gain of a player under truthful reporting.*
 
 ## Technical Details
